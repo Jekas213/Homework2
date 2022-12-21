@@ -83,49 +83,40 @@ public class Main {
         System.out.println(frog);
 
 
-
-
-
     }
 
     public static void task6 () {
         System.out.println("Задача 6");
-        var dog = 8;
-        System.out.println(dog);
-
-        var cat = 3.6;
-        System.out.println(cat);
-
-        var paper = 763789;
-        System.out.println(paper);
+        var weigtBoxerOne = 78.2;
+        var weigtBoxerTwo = 82.7;
+        var totalWeight = weigtBoxerOne + weigtBoxerTwo;
+        System.out.println("Общий вес двух бойцов " + totalWeight + " кг");
+        var difference = weigtBoxerTwo - weigtBoxerOne;
+        System.out.println("Разница в весе между двумя бойцами " + difference + " кг");
 
 
     }
 
     public static void task7 () {
         System.out.println("Задача 7");
-        var dog = 8;
-        System.out.println(dog);
-
-        var cat = 3.6;
-        System.out.println(cat);
-
-        var paper = 763789;
-        System.out.println(paper);
+        var weigtBoxerOne = 78.2;
+        var weigtBoxerTwo = 82.7;
+        var differenceSubtraction = weigtBoxerTwo - weigtBoxerOne;
+        System.out.println("Разница в весе между двумя бойцами " + differenceSubtraction + " кг");
+        var differenceDivision = weigtBoxerTwo % weigtBoxerOne;
+        System.out.println("Разница в весе между двумя бойцами " + differenceDivision + " кг");
 
 
     }
 
     public static void task8 () {
         System.out.println("Задача 8");
-        var dog = 8;
-        System.out.println(dog);
-
-        var cat = 3.6;
-        System.out.println(cat);
-
-        var paper = 763789;
-        System.out.println(paper);
+        var overTime = 640;
+        var employee = overTime / 8;
+        System.out.println("Всего работников в компании — " + employee + " человек");
+        var overEmployer = employee + 94; // Новое кол-ыо работников
+        var newTime = overEmployer * 8;
+        System.out.println("Если в компании работает " + overEmployer + " человек, то всего " + newTime + " часов работы может быть поделено между сотрудниками");
 
 
     }
